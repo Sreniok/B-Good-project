@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
+
+
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    width: 100%;
+    font-family: 'Unica One', cursive;
+
+}
+
+/*---------------------------------------------------------------------Colours */
+
+.bg-color-name-tittle {
+    background-color: transparent;
+}
+
+.header {
+    background-color: #f8f9fa;
+}
+
+/*---------------------------------------------------------------------Heading */
+
+header {
+    margin: 0;
+
+    width: 100%;
+}
+
+.logo {
+    height: 120px;
+    position: sticky;
+    z-index: 1;
+}
+
+.col-md-11 {
+    padding: 0;
+}
+
+.container {
+    padding: 0;
+    max-width: 100%;
+
+}
+
+.background-img {
+    background: url("../assets/images/snow2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    margin-top: -75px;
+    height: 100%;
+    min-height: 360px;
+
+}
+
+.name {
+    font-family: "Permanent Marker", cursive;
+    font-size: 9rem;
+    text-align: center;
+    margin-bottom: -30px;
+    margin-right: 30px
+}
+
+.title {
+    font-family: "Permanent Marker", cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: -20px;
+    margin-right: 30px
+}
+
+/*-----------------------------------------------------------------Navbar */
+
+.navbar {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    font-family: 'Unica One', cursive;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.nav-link {
+    font-family: 'Unica One', cursive;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+
+/*-----------------------------------------------------------------Section */
+
+.page-header {
+    text-align: center;
+    font-family: 'Unica One', cursive;
+    font-weight: bold;
+    background-color: #ef602f
+}
+.blockquote {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
