@@ -52,11 +52,11 @@ header {
 }
 
 .background-img {
-    background: url("sassets/images/snow2.jpg");
+    background: url("assets/images/snow2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-   
+    margin-top: -54px;
     height: 100%;
     min-height: 360px;
 }
