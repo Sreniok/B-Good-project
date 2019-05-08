@@ -45,10 +45,10 @@ header {
     padding: 0;
 }
 
-.container {
+.container-header {
     padding: 0;
     max-width: 100%;
-
+    background-color: #f8f9fa;
 }
 
 .background-img {
@@ -80,9 +80,11 @@ header {
 h1 {
     padding-top: 32px;
 }
+
 .sm-12 {
     font-size: 3rem;
 }
+
 /*-----------------------------------------------------------------Navbar */
 
 .navbar {
@@ -135,9 +137,11 @@ h1 {
 .instructors {
     margin-top: 20px;
 }
+
 .people {
     font-size: 3rem;
 }
+
 /*-------------------------------------------------Footer */
 
 footer {
