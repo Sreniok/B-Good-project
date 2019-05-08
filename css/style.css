@@ -52,7 +52,7 @@ header {
 }
 
 .background-img {
-    background: url("../assets/images/snow2.jpg");
+    background: url("assets/images/snow2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
