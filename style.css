@@ -198,4 +198,24 @@ footer {
     padding: 20px;
 }
 
+/*Buttons*/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    font-size: 14px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:fokus,
+.btn--red:active:fokus {
+    background-color: #f30202;
+    border-color: #f30202;
 }
