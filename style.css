@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Unica+One');
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:700,,900');
 
 
 
@@ -27,7 +28,6 @@ html {
 
 header {
     margin: 0;
-
     width: 100%;
 }
 
@@ -62,19 +62,23 @@ header {
 }
 
 .name {
-    font-family: "Permanent Marker", cursive;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 900;
     font-size: 9rem;
     text-align: center;
     margin-bottom: -30px;
-    margin-right: 30px
+    margin-right: 30px;
+    text-shadow: 2px 2px 5px #ef602f;
 }
 
 .title {
-    font-family: "Permanent Marker", cursive;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 700;
     font-size: 3rem;
     text-align: center;
     margin-top: -20px;
-    margin-right: 30px
+    margin-right: 30px;
+    text-shadow: 2px 2px 5px #ef602f;
 }
 
 h1 {
