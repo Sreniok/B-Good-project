@@ -78,7 +78,7 @@ header {
     text-shadow: 2px 2px 5px #ef602f;
 }
 
-.col-11 {
+.col-9 {
     padding: 0;
 }
 
@@ -106,7 +106,6 @@ h1 {
 }
 
 #navbarNavDropdown {
-    padding-left: 20%;
 }
 
 .bg-light {
@@ -225,7 +224,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    margin-top: -45px;
+    margin-top: -43px;
     height: 100%;
     min-height: 360px;
 }
