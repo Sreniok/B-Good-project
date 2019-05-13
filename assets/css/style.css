@@ -57,7 +57,7 @@ header {
 }
 
 .background {
-    background: url("/assets/images/snow2.jpg");
+    background: url("../images/snow2.jpg");
     display: block;
     background-repeat: no-repeat;
     background-size: cover;
