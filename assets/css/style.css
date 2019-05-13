@@ -96,7 +96,6 @@ h1 {
 
 .nav-item .nav-link {
     font-family: 'Unica One', cursive;
-    text-align: center;
     font-size: 30px;
     font-weight: bold;
 }
@@ -110,7 +109,9 @@ h1 {
     padding-left: 20%;
 }
 
-
+.bg-light {
+    padding-left: 70px;
+}
 
 .dropdown-menu {}
 
