@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Unica+One');
 @import url('https://fonts.googleapis.com/css?family=Gothic+A1:700,,900');
 
-
-
 body,
 html {
     margin: 0;
@@ -11,7 +9,6 @@ html {
     padding: 0;
     width: 100%;
     font-family: 'Unica One', cursive;
-
 }
 
 /*---------------------------------------------------------------------Colours */
@@ -22,6 +19,14 @@ html {
 
 .header {
     background-color: #f8f9fa;
+}
+
+/*---------------------------------------------------------------------Media Querie */
+
+@media (min-width: 768px) {
+    .name {
+        font-size: 9rem;
+    }
 }
 
 /*---------------------------------------------------------------------Heading */
@@ -41,7 +46,7 @@ header {
     z-index: 1;
 }
 
-.col-md-11 {
+.col-11 {
     padding: 0;
 }
 
@@ -51,8 +56,9 @@ header {
     background-color: #f8f9fa;
 }
 
-.background-img {
-    background: url("assets/images/snow2.jpg");
+.background {
+    background: url("/assets/images/snow2.jpg");
+    display: block;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -64,22 +70,22 @@ header {
 .name {
     font-family: 'Gothic A1', sans-serif;
     font-weight: 900;
-    font-size: 9rem;
+    font-size: 4rem;
     text-align: center;
-    margin-bottom: -30px;
-    margin-right: 30px;
     text-shadow: 2px 2px 5px #ef602f;
+    padding-top: 80px;
 }
 
 .title {
     font-family: 'Gothic A1', sans-serif;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 1.9rem;
     text-align: center;
-    margin-top: -20px;
-    margin-right: 30px;
     text-shadow: 2px 2px 5px #ef602f;
 }
+
+
+
 
 h1 {
     padding-top: 32px;
@@ -91,25 +97,25 @@ h1 {
 
 /*-----------------------------------------------------------------Navbar */
 
-.navbar {
-    padding: 0;
-    margin: 0;
-}
-
-.nav-item {
+.nav-item .nav-link {
     font-family: 'Unica One', cursive;
+    text-align: center;
     font-size: 30px;
     font-weight: bold;
-
 }
 
-.nav-link {
-    font-family: 'Unica One', cursive;
-    font-size: 30px;
+.dropdown-item {
+    text-align: center;
     font-weight: bold;
-
 }
 
+#navbarNavDropdown {
+    padding-left: 20%;
+}
+
+
+
+.dropdown-menu {}
 
 /*-----------------------------------------------------------------Section */
 
@@ -164,10 +170,6 @@ footer {
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-}
-
-.cv-pdf i:hover {
-    color: #e84610;
 }
 
 .social-links {
