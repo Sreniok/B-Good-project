@@ -23,9 +23,6 @@ html {
 
 /*---------------------------------------------------------------------Media Querie */
 
-
-
-
 /*---------------------------------------------------------------------Heading */
 
 header {
@@ -58,11 +55,10 @@ header {
     display: block;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     margin-top: -30px;
     height: 100%;
     min-height: 360px;
-    z-index: -1;
 }
 
 .name {
@@ -82,7 +78,9 @@ header {
     text-shadow: 2px 2px 5px #ef602f;
 }
 
-
+.col-11 {
+    padding: 0;
+}
 
 
 h1 {
@@ -93,11 +91,9 @@ h1 {
     font-size: 3rem;
 }
 
+
 /*-----------------------------------------------------------------Navbar */
 
-.navbar {
-    z-index: -1;
-}
 .nav-item .nav-link {
     font-family: 'Unica One', cursive;
     font-size: 30px;
@@ -163,17 +159,6 @@ footer {
     margin: 0;
 }
 
-.cv-pdf i {
-    font-size: 18px;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
 .social-links {
     padding-bottom: 15px;
 }
@@ -202,12 +187,20 @@ footer {
     padding: 20px;
 }
 
-/*Buttons*/
+/*-------------------------------------------------Buttons */
 
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
     font-size: 14px;
+}
+
+.btn--submit {
+    font-weight: bold;
+    border-radius: 23px;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 .btn--red {
@@ -222,4 +215,29 @@ footer {
 .btn--red:active:fokus {
     background-color: #f30202;
     border-color: #f30202;
+}
+
+/*-------------------------------------------------Forms */
+
+.booking {
+    background: url("../images/snow5.jpg");
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -45px;
+    height: 100%;
+    min-height: 360px;
+}
+
+.top {
+    margin-top: 100px;
+}
+
+.form-row {
+    padding-left: 30px;
+}
+
+.form-row {
+    width: 90%;
 }
