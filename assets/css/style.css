@@ -23,221 +23,230 @@ html {
 
 /*---------------------------------------------------------------------Media Querie */
 
-/*---------------------------------------------------------------------Heading */
-
-header {
-    margin: 0;
-    width: 100%;
-}
-
-.bg-color-name-tittle {
-    margin-right: 0;
-}
-
-#logo {
-    height: 120px;
-    position: sticky;
-    z-index: 1;
-}
-
-.sm-12 {
-    padding-right: 0;
-}
-
-.container {
-    padding: 0;
-    max-width: 100%;
-    background-color: #f8f9fa;
-}
-
-.background {
-    background: url("../images/snow2.jpg");
-    display: block;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    margin-top: -30px;
-    height: 100%;
-    min-height: 360px;
-}
-
-.name {
-    font-family: 'Gothic A1', sans-serif;
-    font-weight: 900;
-    font-size: 4rem;
-    text-align: center;
-    text-shadow: 2px 2px 5px #ef602f;
-    padding-top: 80px;
-}
-
-.title {
-    font-family: 'Gothic A1', sans-serif;
-    font-weight: 700;
-    font-size: 1.9rem;
-    text-align: center;
-    text-shadow: 2px 2px 5px #ef602f;
-}
-
-.col-9 {
-    padding: 0;
-}
-
-
-h1 {
-    padding-top: 32px;
-}
-
-.sm-12 {
-    font-size: 3rem;
-}
-
-
-/*-----------------------------------------------------------------Navbar */
-
-.nav-item .nav-link {
-    font-family: 'Unica One', cursive;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.dropdown-item {
-    text-align: center;
-    font-weight: bold;
-}
-
-#navbarNavDropdown {
-}
-
-.bg-light {
-    padding-left: 70px;
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-collapse {
     padding-bottom: 60px;
+    padding-left: 150px;
+}
 }
 
-.dropdown-menu {}
 
-/*-----------------------------------------------------------------Section */
+    /*---------------------------------------------------------------------Heading */
+    header {
+        margin: 0;
+        width: 100%;
+    }
 
-.page-header {
-    text-align: center;
-    font-family: 'Unica One', cursive;
-    font-weight: bold;
-    padding-top: 10px;
-    background-color: #ef602f
-}
+    .bg-color-name-tittle {
+        margin-right: 0;
+    }
 
-.blockquote {
-    margin-left: 30px;
-    margin-top: 20px;
-}
+    #logo {
+        height: 120px;
+        position: sticky;
+        z-index: 1;
+    }
 
-.rounded-circle {
-    border-radius: 50%!important;
-}
+    .sm-12 {
+        padding-right: 0;
+    }
 
-.row {
-    margin-right: 0;
-}
+    .container {
+        padding: 0;
+        max-width: 100%;
+        background-color: #f8f9fa;
+    }
 
-.face1 {
-    padding-left: 20px;
-}
+    .background {
+        background: url("../images/snow2.jpg");
+        display: block;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-top: -34px;
+        height: 100%;
+        min-height: 360px;
+    }
 
-.instructors {
-    margin-top: 20px;
-}
+    .name {
+        font-family: 'Gothic A1', sans-serif;
+        font-weight: 900;
+        font-size: 4rem;
+        text-align: center;
+        text-shadow: 2px 2px 5px #ef602f;
+        padding-top: 80px;
+    }
 
-.people {
-    font-size: 3rem;
-}
+    .title {
+        font-family: 'Gothic A1', sans-serif;
+        font-weight: 700;
+        font-size: 1.9rem;
+        text-align: center;
+        text-shadow: 2px 2px 5px #ef602f;
+    }
 
-/*-------------------------------------------------Footer */
+    .col-9 {
+        padding: 0;
+    }
 
-footer {
-    background-color: #525252;
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-}
 
-.social-links {
-    padding-bottom: 15px;
-}
+    h1 {
+        padding-top: 32px;
+    }
 
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
+    .sm-12 {
+        font-size: 3rem;
+    }
 
-.social-links li a i:hover {
-    background: #e84610;
-}
 
-#footer-details {
-    padding: 20px;
-}
+    /*-----------------------------------------------------------------Navbar */
+    .nav-item .nav-link {
+        font-family: 'Unica One', cursive;
+        font-size: 30px;
+        font-weight: bold;
+    }
 
-/*-------------------------------------------------Buttons */
+    .dropdown-item {
+        text-align: center;
+        font-weight: bold;
+    }
 
-.btn--cta {
-    font-weight: bold;
-    border-radius: 23px;
-    font-size: 14px;
-}
+    #navbarNavDropdown {}
 
-.btn--submit {
-    font-weight: bold;
-    border-radius: 23px;
-    font-size: 20px;
-    margin-left: 30px;
-    margin-top: 20px;
-}
+    .bg-light {
+        width: 104%;
+    }
 
-.btn--red {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
-}
+    .navbar-toggler {
+        margin-bottom: 60px;
+        margin-right: 10px;
+    }
 
-.btn--red:hover,
-.btn--red:active,
-.btn--red:fokus,
-.btn--red:active:fokus {
-    background-color: #f30202;
-    border-color: #f30202;
-}
+    .navbar-nav .nav-link {
+        padding-left: 150px;
+    }
 
-/*-------------------------------------------------Forms */
+    /*-----------------------------------------------------------------Section */
+    .page-header {
+        text-align: center;
+        font-family: 'Unica One', cursive;
+        font-weight: bold;
+        padding-top: 10px;
+        background-color: #ef602f
+    }
 
-.booking {
-    background: url("../images/snow5.jpg");
-    display: block;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    margin-top: -43px;
-    height: 100%;
-    min-height: 360px;
-}
+    .blockquote {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
 
-.top {
-    margin-top: 100px;
-}
+    .rounded-circle {
+        border-radius: 50%!important;
+    }
 
-.form-row {
-    padding-left: 30px;
-}
+    .row {
+        margin-right: 0;
+    }
 
-.form-row {
-    width: 90%;
-}
+    .face1 {
+        padding-left: 20px;
+    }
+
+    .instructors {
+        margin-top: 20px;
+    }
+
+    .people {
+        font-size: 3rem;
+    }
+
+    /*-------------------------------------------------Footer */
+    footer {
+        background-color: #525252;
+        color: #fafafa;
+        min-height: 120px;
+        margin: 0;
+    }
+
+    .social-links {
+        padding-bottom: 15px;
+    }
+
+    .social-links li a i {
+        width: 32px;
+        height: 32px;
+        padding: 12px 0;
+        border-radius: 50%;
+        font-size: 13px;
+        line-height: 7px;
+        text-align: center;
+        color: #fafafa;
+        background: #8f8f8f;
+        transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+    }
+
+    .social-links li a i:hover {
+        background: #e84610;
+    }
+
+    #footer-details {
+        padding: 20px;
+    }
+
+    /*-------------------------------------------------Buttons */
+    .btn--cta {
+        font-weight: bold;
+        border-radius: 23px;
+        font-size: 14px;
+    }
+
+    .btn--submit {
+        font-weight: bold;
+        border-radius: 23px;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .btn--red {
+        color: white;
+        background-color: #f05f40;
+        border-color: #f05f40;
+    }
+
+    .btn--red:hover,
+    .btn--red:active,
+    .btn--red:fokus,
+    .btn--red:active:fokus {
+        background-color: #f30202;
+        border-color: #f30202;
+    }
+
+    /*-------------------------------------------------Forms */
+    .booking {
+        background: url("../images/snow5.jpg");
+        display: block;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-top: -70px;
+        height: 100%;
+        min-height: 360px;
+        position: relative;
+    }
+
+    .top {
+        margin-top: 100px;
+    }
+
+    .form-row {
+        padding-left: 30px;
+    }
+
+    .form-row {
+        width: 90%;
+    }
