@@ -11,7 +11,7 @@ html {
     font-family: 'Unica One', cursive;
 }
 
-/*---------------------------------------------------------------------Colours */
+/*------------------------------------------------------------------- Colours */
 
 .bg-color-name-tittle {
     background-color: transparent;
@@ -25,7 +25,7 @@ html {
     background-color: black;
 }
 
-/*----------------------------------------------------------------Media Querie */
+/*-------------------------------------------------------------- Media Querie */
 
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-collapse {
@@ -40,8 +40,7 @@ html {
     }
 }
 
-
-/*--------------------------------------------------------------------Heading */
+/*------------------------------------------------------------------- Heading */
 
 header {
     margin: 0;
@@ -115,7 +114,7 @@ h1 {
     background-color: #f8f9fa;
 }
 
-/*-----------------------------------------------------------------Navbar */
+/*-------------------------------------------------------------------- Navbar */
 
 .nav-item .nav-link {
     font-family: 'Unica One', cursive;
@@ -128,8 +127,6 @@ h1 {
     font-weight: bold;
 }
 
-#navbarNavDropdown {}
-
 .bg-light {
     width: 100%;
 }
@@ -140,14 +137,15 @@ h1 {
 }
 
 .navbar-nav .nav-link {
-    padding-left: 150px;
+    padding-left: 140px;
+    text-align: left;
 }
 
 .navbar {
     padding-right: 0;
 }
 
-/*-----------------------------------------------------------------Section */
+/*--------------------------------------------------------------------Section */
 
 .photo {
     background-color: #fff;
@@ -162,7 +160,7 @@ h1 {
     padding: 0;
     background-color: #fff;
     margin-top: -70px;
-    padding-top: 140px;
+    padding-top: 90px;
     padding-left: 80px;
 }
 
@@ -239,17 +237,14 @@ h1 {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
-
 }
 
 .container {
     text-align: center;
-
 }
 
 .gallery {
     margin-left: 50px;
-
 }
 
 .video-header {
@@ -279,7 +274,7 @@ iframe {
     height: 260px;
 }
 
-/*-------------------------------------------------Footer */
+/*-------------------------------------------------------------------- Footer */
 
 footer {
     background-color: #525252;
@@ -312,11 +307,11 @@ footer {
     background: #e84610;
 }
 
-#footer-details {
+.footer-details {
     padding: 20px;
 }
 
-/*-------------------------------------------------Buttons */
+/*------------------------------------------------------------------- Buttons */
 
 .btn--cta {
     font-weight: bold;
@@ -346,7 +341,7 @@ footer {
     border-color: #f30202;
 }
 
-/*-------------------------------------------------Forms */
+/*--------------------------------------------------------------------- Forms */
 
 .booking {
     background: url("../images/snow5.jpg");
