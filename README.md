@@ -12,9 +12,11 @@ UX is easy to  navigate
 
 <h2>Technology:</h2>
 
-1. html
-2. css
-3. bootstrap
+<ul>
+<li>Html</li>
+<li>Css</li>
+<li>Bootstrap</li>
+</ul>
 
 <h2>Feteurs:</h2>
 
