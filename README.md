@@ -8,7 +8,7 @@ This is ski/snowboard school website for milestone project schowing my code skil
 https://sreniok.github.io/B-Good-project/
 
 <h2>UX</h2>
-UX is easy to  navigate
+UX is easy to read and navigate
 
 <h2>Technology:</h2>
 
@@ -34,8 +34,8 @@ Webste was tested in chrom for mobile and desktop compatibility and responsivene
 <h2>Credits</h2>
 
 <h4>Media</h4>
-All photos were taken from google search excpt logo.
+All photos were taken from google search except logo.
 
 <h4>Acknowledgements</h4>
 
-Using information from Code Institute cours and www.w3schools.com to build this website
+Using information from Code Institute cours google search and www.w3schools.com to build this website
