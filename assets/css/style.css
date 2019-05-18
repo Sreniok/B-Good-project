@@ -40,6 +40,11 @@ html {
     }
 }
 
+@media (min-width: 768px) {
+.col-md-8 {
+    margin-top: -70px;
+}
+}
 /*------------------------------------------------------------------- Heading */
 
 header {
@@ -224,7 +229,6 @@ h1 {
 
 .col-md-8 {
     background-color: #f0f0f0;
-    margin-top: -69.55px;
 }
 
 .container-fluid {
