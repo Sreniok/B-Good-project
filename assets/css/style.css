@@ -40,6 +40,7 @@ html {
     }
 }
 
+
 /*--------------------------------------------------------------------Heading */
 
 header {
@@ -148,16 +149,21 @@ h1 {
 
 /*-----------------------------------------------------------------Section */
 
+.photo {
+    background-color: #fff;
+    padding-top: -70px
+}
+
 #snow8 {
-    max-width: 848px;
+    max-width: 686px;
 }
 
 .col-md-4 {
     padding: 0;
     background-color: #fff;
     margin-top: -70px;
-    padding-top: 70px;
-    padding-left: 20px;
+    padding-top: 140px;
+    padding-left: 80px;
 }
 
 .uppercase {
@@ -217,9 +223,60 @@ h1 {
     padding-top: 55px;
     background-color: #fff;
 }
+
 .col-md-8 {
-    background-color: #fff;
+    background-color: #f0f0f0;
     margin-top: -69.55px;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+
+}
+
+.container {
+    text-align: center;
+
+}
+
+.gallery {
+    margin-left: 50px;
+
+}
+
+.video-header {
+    background-color: #fff;
+    margin-top: -70px;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+
+.video {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+#gallery {
+    width: 100%;
+    height: 250px;
+}
+
+iframe {
+    width: 100%;
+    height: 260px;
 }
 
 /*-------------------------------------------------Footer */
