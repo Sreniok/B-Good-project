@@ -1,4 +1,4 @@
-<h1>B-Good Ski/Snowboard School project</h1>
+# B-Good Ski/Snowboard School project
 
 User Centric milestone project - Code Instite
 
@@ -7,35 +7,36 @@ This is ski/snowboard school website for milestone project schowing my code skil
 <h2>Live demo:</h2>
 https://sreniok.github.io/B-Good-project/
 
-<h2>UX</h2>
+## UX
 UX is easy to read and navigate
 
-<h2>Technology:</h2>
-
-<ul>
-<li>Html</li>
-<li>Css</li>
-<li>Bootstrap</li>
-</ul>
-
-<h2>Feteurs:</h2>
+## Feteurs
 
 This site use grind layout from bootstrap,navbar is collapsed in mobile version.
 
+### Existing Feteurs
 
-<h2>Features Left to Implement:</h2>
+### Features Left to Implement
 
 In the future i would like to add page with Events to see whats is going on.
 
-<h2>Testing:</h2>
+## Technologies Used
 
-Webste was tested in chrom for mobile and desktop compatibility and responsiveness. 
+- Html
+- Css
+- Bootstrap
 
-<h2>Credits</h2>
+## Testing
 
-<h4>Media</h4>
-All photos were taken from google search except logo.
+Webste was tested in chrome for mobile and desktop compatibility and responsiveness. 
 
-<h4>Acknowledgements</h4>
+## Deployment
+
+## Credits
+
+### Media
+- The photos used in this site were obtained from google search
+
+### Acknowledgements
 
 Using information from Code Institute cours google search and www.w3schools.com to build this website
