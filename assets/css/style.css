@@ -46,6 +46,12 @@ html {
     }
 }
 
+@media (max-width: 991px) {
+    .navbar-collapse {
+    height: 310px;
+}
+}
+
 /*------------------------------------------------------------------- Heading */
 
 header {
@@ -151,9 +157,6 @@ h1 {
     padding-right: 0;
 }
 
-.navbar-collapse {
-    height: 310px;
-}
 
 /*--------------------------------------------------------------------Section */
 
