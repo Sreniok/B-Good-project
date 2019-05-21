@@ -48,8 +48,8 @@ html {
 
 @media (max-width: 991px) {
     .navbar-collapse {
-    height: 310px;
-}
+        height: 310px;
+    }
 }
 
 /*------------------------------------------------------------------- Heading */
@@ -284,6 +284,12 @@ h1 {
 iframe {
     width: 100%;
     height: 260px;
+}
+
+.content {
+    background-color: #9e9ca566;
+    padding-left: 35px;
+    padding-top: 15px;
 }
 
 /*-------------------------------------------------------------------- Footer */
