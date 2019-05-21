@@ -44,7 +44,7 @@ https://sreniok.github.io/B-Good-project/
 
 - GitHube pages
 https://sreniok.github.io/B-Good-project/
-- 
+
 ## Credits
 
 ### Media
