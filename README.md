@@ -30,7 +30,7 @@ In the future i would like to add page with Events to see whats is going on in t
 
 ## Testing
 
-The visitors after clicking logo will go back to Home page. Media page have dropdown menu with 2 option photo and video. Logo is to high that's why position is sticky to overlap on background for nicer look.Background  padding-top is set to minuse to overlap on navbar.In mobile version navbar is collapsed for cleaner look. On footer you can find button BOOK NOW!! wich one after click will move you to booking page. Photo in media page have polaroid look after clicking it will open new tabs with full size image.  
+The visitors clicking logo will go back to Home page. Media page have dropdown menu with 2 option photo and video. Logo is to high that's why position is sticky to overlap on background for nicer look.Background  padding-top is set to minus to overlap on navbar.In mobile version navbar is collapsed for cleaner look. On footer you can find button BOOK NOW!! wich one after click will move you to booking page. Photo in media page have polaroid look after clicking it will open new tabs with full size image.  
 
 
 The site was tested in chrome for mobile and desktop compatibility and responsiveness. On iPhone during the testing phase background-attachment: fixed was not compatibile with iOS browser. No HTML errors checked with validator.w3.org 
