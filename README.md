@@ -40,7 +40,7 @@ The site was tested in chrome for mobile and desktop compatibility and responsiv
 This site is hosted using GitHube pages, deployed directly from master branch.
 
 - GitHube Repositories
-https://sreniok.github.io/B-Good-project/
+https://github.com/Sreniok/B-Good-project
 
 - GitHube pages
 https://sreniok.github.io/B-Good-project/
