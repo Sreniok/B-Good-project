@@ -41,10 +41,11 @@ html {
 }
 
 @media (min-width: 768px) {
-.col-md-8 {
-    margin-top: -70px;
+    .col-md-8 {
+        margin-top: -70px;
+    }
 }
-}
+
 /*------------------------------------------------------------------- Heading */
 
 header {
@@ -148,6 +149,10 @@ h1 {
 
 .navbar {
     padding-right: 0;
+}
+
+.navbar-collapse {
+    height: 310px;
 }
 
 /*--------------------------------------------------------------------Section */

@@ -4,9 +4,6 @@ User Centric milestone project - Code Instite
 
 This is ski/snowboard school website for milestone project schowing my code skills.
 
-<h2>Live demo:</h2>
-https://sreniok.github.io/B-Good-project/
-
 ## UX
 UX is easy to read and navigate
 
@@ -32,6 +29,8 @@ Webste was tested in chrome for mobile and desktop compatibility and responsiven
 
 ## Deployment
 
+- Live demo
+https://sreniok.github.io/B-Good-project/
 ## Credits
 
 ### Media
